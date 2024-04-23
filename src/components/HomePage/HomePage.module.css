@@ -1,0 +1,24 @@
+.HomePage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;  
+    background-image: url('/public/rush-hylan.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    flex-direction: column; 
+}
+
+.queryContainer {
+    margin-top: 0px; 
+    margin-left: 20px; 
+    align-self: flex-start; 
+    width: 300px;
+}
+
+.LandbotChat {
+    flex: 1;
+    width: 100%; 
+}
